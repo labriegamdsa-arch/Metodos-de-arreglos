@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Condensed+One&display=swap');
+
+body{background-color: #6cd0e8;
+    background-image: url('./img/fondo2.png');
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 100vh;
+    margin: 0;
+    font-family: 'Playwrite NO', cursive;
+    font-size: 13px;
+
+    
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+
+}
+.main h2 {
+    margin-top: 120px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container label{
+    display: flex;
+     align-items: center;
+        
+}
+ .container input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    padding: 5px;
+ }
+.container button{
+        color: black;
+        margin: 2px;
+        padding: 5px;
+        background-color: #ffff7a;
+        border: solid 1px grey;
+        cursor: pointer;
+    }
+
+.tareas-completada {
+  text-decoration: line-through;
+  color: gray;
+  opacity: 0.6;
+}
+
+.eliminar {
+  color: red;
+  cursor: pointer;
+  margin-left: 10px;
+}
